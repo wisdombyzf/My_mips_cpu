@@ -27,7 +27,10 @@ module alu(
 );
 	//定义逻辑运算结果的储存器
 	reg[`reg_data_bus_width] logicout;
+	//移位运算结果储存器
+	reg[`RegBus] shiftres;
 	
+	//逻辑运算
 	always @ (*) 
 	begin
 		if(rst == `enable_signal) 
@@ -41,6 +44,18 @@ module alu(
 						begin
 							logicout <= reg1_i | reg2_i;
 						end
+					`EXE_AND_OP:		
+						begin
+							logicout <= reg1_i & reg2_i;
+						end
+					`EXE_NOR_OP:		
+						begin
+							logicout <= ~(reg1_i |reg2_i);
+						end
+					`EXE_XOR_OP:		
+						begin
+							logicout <= reg1_i ^ reg2_i;
+						end
 					default:				
 						begin
 							logicout <= `zero_word;
@@ -48,8 +63,38 @@ module alu(
 				endcase
 			end  
 	end    
+	
+	//移位运算
+	always @ (*)
+	begin
+		if(rst == `enable_signal) 
+			begin
+				shiftres <= `zero_word;
+			end 
+		else 
+			begin
+				case (aluop_i)
+					`EXE_SLL_OP:			
+						begin
+							shiftres <= reg2_i << reg1_i[4:0] ;
+						end
+					`EXE_SRL_OP:		
+						begin
+							shiftres <= reg2_i >> reg1_i[4:0];
+						end
+					`EXE_SRA_OP:		
+						begin
+							shiftres <= ({32{reg2_i[31]}} << (6'd32-{1'b0, reg1_i[4:0]}))| reg2_i >> reg1_i[4:0];
+						end
+					default:				
+						begin
+							shiftres <= `zero_word;
+						end
+				endcase
+			end  
+	end      
 
-
+	
 	always @ (*) 
 	begin
 	 wd_o <= wd_i;	 	 	
