@@ -25,13 +25,13 @@ r1
 !i10b 1
 !s100 iS9CK_RliC^nS1^JzS:g51
 I8jEUd3ghKab>E9;HPAQ]U1
-Z2 dG:/modelsim_code/test
+Z2 dG:/modelsim_code/My_mips/my_mips_cpu
 w1516606966
 8G:/modelsim_code/test/alu.v
 FG:/modelsim_code/test/alu.v
 Z3 L0 10
 Z4 OL;L;10.4;61
-!s108 1516764048.882000
+!s108 1516764673.275000
 !s107 defines.v|G:/modelsim_code/test/alu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/alu.v|
 !i113 0
@@ -44,7 +44,7 @@ r1
 !i10b 1
 !s100 WcVi8GN2Af?K8T9H=;CKk1
 Icn:^^j1Q?IfcPojH=bOQA1
-R2
+dG:/modelsim_code/test
 Z6 w1516598880
 8G:/modelsim_code/test/ex.v
 FG:/modelsim_code/test/ex.v
@@ -69,7 +69,7 @@ R6
 FG:/modelsim_code/test/ex_mem.v
 R3
 R4
-!s108 1516764049.457000
+!s108 1516764673.475000
 !s107 defines.v|G:/modelsim_code/test/ex_mem.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/ex_mem.v|
 !i113 0
@@ -88,7 +88,7 @@ w1516764041
 FG:/modelsim_code/test/id.v
 Z7 L0 16
 R4
-!s108 1516764049.544000
+!s108 1516764673.567000
 !s107 defines.v|G:/modelsim_code/test/id.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/id.v|
 !i113 0
@@ -107,7 +107,7 @@ w1516595174
 FG:/modelsim_code/test/id_ex.v
 R7
 R4
-!s108 1516764049.634000
+!s108 1516764673.656000
 !s107 defines.v|G:/modelsim_code/test/id_ex.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/id_ex.v|
 !i113 0
@@ -126,7 +126,7 @@ Z8 w1516592397
 FG:/modelsim_code/test/if_id.v
 L0 17
 R4
-!s108 1516764049.721000
+!s108 1516764673.744000
 !s107 defines.v|G:/modelsim_code/test/if_id.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/if_id.v|
 !i113 0
@@ -145,7 +145,7 @@ w1516606012
 FG:/modelsim_code/test/inst_rom.v
 R3
 R4
-!s108 1516764049.813000
+!s108 1516764673.834000
 !s107 defines.v|G:/modelsim_code/test/inst_rom.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/inst_rom.v|
 !i113 0
@@ -164,7 +164,7 @@ w1516597672
 FG:/modelsim_code/test/mem.v
 L0 13
 R4
-!s108 1516764049.907000
+!s108 1516764673.923000
 !s107 defines.v|G:/modelsim_code/test/mem.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/mem.v|
 !i113 0
@@ -183,7 +183,7 @@ R6
 FG:/modelsim_code/test/mem_wb.v
 R3
 R4
-!s108 1516764050.006000
+!s108 1516764674.033000
 !s107 defines.v|G:/modelsim_code/test/mem_wb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/mem_wb.v|
 !i113 0
@@ -202,7 +202,7 @@ w1516763934
 FG:/modelsim_code/test/my_mips_cpu.v
 R3
 R4
-!s108 1516764050.086000
+!s108 1516764674.120000
 !s107 defines.v|G:/modelsim_code/test/my_mips_cpu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/my_mips_cpu.v|
 !i113 0
@@ -221,7 +221,7 @@ Z9 w1516606138
 FG:/modelsim_code/test/my_mips_sopc.v
 L0 12
 R4
-!s108 1516764050.172000
+!s108 1516764674.206000
 !s107 defines.v|G:/modelsim_code/test/my_mips_sopc.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/my_mips_sopc.v|
 !i113 0
@@ -240,7 +240,7 @@ R8
 FG:/modelsim_code/test/pc_reg.v
 R7
 R4
-!s108 1516764050.254000
+!s108 1516764674.286000
 !s107 defines.v|G:/modelsim_code/test/pc_reg.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/pc_reg.v|
 !i113 0
@@ -259,7 +259,7 @@ w1516760988
 FG:/modelsim_code/test/regfile.v
 L0 23
 R4
-!s108 1516764050.346000
+!s108 1516764674.376000
 !s107 defines.v|G:/modelsim_code/test/regfile.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/regfile.v|
 !i113 0
@@ -278,7 +278,7 @@ R9
 FG:/modelsim_code/test/test_my_mips_sopc.v
 L0 11
 R4
-!s108 1516764048.820000
+!s108 1516764673.213000
 !s107 defines.v|G:/modelsim_code/test/test_my_mips_sopc.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|G:/modelsim_code/test/test_my_mips_sopc.v|
 !i113 0
